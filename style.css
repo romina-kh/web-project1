@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.nav {
+    width: 100%;
+    display: flex;
+    background-color: #8ACDD7;
+    align-items: center;
+    height: 50px;
+}
+.nav h2{
+    color: darkblue;
+    margin: 20px;
+
+}
+.nav a{
+    color : darkblue;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px 5px;
+    
+}
+.nav a:hover{
+    color: blueviolet;
+    
+}
+.profile{
+    position: absolute;
+    right: 0px;
+}
