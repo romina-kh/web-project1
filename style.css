@@ -10,10 +10,12 @@
     align-items: center;
     height: 50px;
 }
+
 .nav h2{
     color: darkblue;
-    margin: 20px;
-
+    padding: 8px 20px;
+    background-image: url(pictures/bubbles-gif-22.gif);
+    background-size: 200px;
 }
 .nav a{
     color : darkblue;
