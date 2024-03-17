@@ -6,19 +6,20 @@
 .nav {
     width: 100%;
     display: flex;
-    background-color: #8ACDD7;
+    background-color: #33186B;
     align-items: center;
     height: 50px;
+    position: fixed; 
 }
 
 .nav h2{
-    color: darkblue;
+    color: #F2AFEF;
     padding: 8px 20px;
     background-image: url(pictures/bubbles-gif-22.gif);
     background-size: 200px;
 }
 .nav a{
-    color : darkblue;
+    color : #F2AFEF;
     border-radius: 20px;
     margin: 10px;
     padding: 10px 5px;
@@ -30,5 +31,37 @@
 }
 .profile{
     position: absolute;
-    right: 0px;
+    right: 10px;
+}
+.home{
+    background-color:#f2e8fc;
+    color: #33186B;
+    display: flex;
+    align-items: center; /*vertical*/
+    justify-content: center; /*horizontal*/
+    position: relative; /*on nav...*/
+    top: 50px; /*start from up*/
+}
+.home img{
+    height: 200px;
+}
+.b_txt{
+    font-size: 200px;
+    position: absolute;
+    left: 10px;
+}
+.bubble_txt{
+    font-size: 75px;
+    position: absolute;
+    left : 150px;
+    top:85px;
+    
+    
+}
+.buy_txt{
+    font-size: 75px;
+    position: absolute;
+    left : 150px;
+    top : 10px;
+    
 }
