@@ -69,6 +69,7 @@
     font-size: 20px;
     position: absolute;
     right: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .cosmetic_txt{
@@ -86,22 +87,25 @@
     margin-top: 5px;
     height: 300px;
     margin-left :100px;
+    border-style:inherit;
+    border-radius: 30%;
 }
 .straight_h{
     font-size: 60px;
     position: absolute;
     left :500px;
-    top: 400px;
+    top: 410px;
     color: #802080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .straight_t{
     font-size: 30px;
     position: absolute;
     left :500px;
-    top: 470px;
+    top: 485px;
     color:#802080;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .s_shampoo{
     margin-top: 5px;
@@ -124,6 +128,7 @@
     left :400px;
     top: 730px;
     color: #61055c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 .wavy_t{
@@ -132,6 +137,7 @@
     left :400px;
     top: 800px;
     color: #61055c;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
 .wavy{
@@ -139,6 +145,8 @@
     height: 300px;
     position: absolute;
     right: 100px;
+    border-style:inherit;
+    border-radius: 30%;
 }
 
 .C{
@@ -148,6 +156,8 @@
     margin-top: 5px;
     height: 300px;
     margin-left :100px;
+    border-style:inherit;
+    border-radius: 30%;
 }
 .curly_h{
     font-size: 60px;
@@ -155,6 +165,7 @@
     left :500px;
     top: 1050px;
     color: #a30f6a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 .curly_t{
@@ -163,6 +174,7 @@
     left :500px;
     top: 1120px;
     color: #a30f6a;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 .c_shampoo{
