@@ -39,8 +39,8 @@
     display: flex;
     align-items: center; /*vertical*/
     justify-content: center; /*horizontal*/
-    position: relative; /*on nav...*/
-    top: 50px; /*start from up*/
+    padding-top: 50px;
+    
 }
 .home_pic{
     height: 300px;
@@ -54,7 +54,7 @@
     font-size: 75px;
     position: absolute;
     left : 150px;
-    top:145px;
+    top: 185px;
     
     
 }
@@ -62,7 +62,7 @@
     font-size: 75px;
     position: absolute;
     left : 150px;
-    top : 60px;
+    top : 110px;
     
 }
 .p_home{
@@ -76,5 +76,92 @@
     font-style: oblique;
     position: absolute;
     left : 300px;
-    top:210px;
+    top: 250px;
+}
+
+.S{
+    background-color:#33186B;
+}
+.straight{
+    margin-top: 5px;
+    height: 300px;
+    margin-left :100px;
+}
+.straight_h{
+    font-size: 60px;
+    position: absolute;
+    left :500px;
+    top: 400px;
+    
+}
+.straight_t{
+    font-size: 30px;
+    position: absolute;
+    left :500px;
+    top: 470px;
+    
+}
+.s_shampoo{
+    margin-top: 5px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+}
+
+.W{
+    background-color:#F2AFEF;
+}
+.w_shampoo{
+    margin-top: 5px;
+    height: 300px;
+    margin-left :100px;
+}
+.wavy_h{
+    font-size: 60px;
+    position: absolute;
+    left :400px;
+    top: 730px;
+    
+}
+.wavy_t{
+    font-size: 30px;
+    position: absolute;
+    left :400px;
+    top: 800px;
+    
+}
+.wavy{
+    margin-top: 5px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
+}
+
+.C{
+    background-color:#7360DF;
+}
+.curly{
+    margin-top: 5px;
+    height: 300px;
+    margin-left :100px;
+}
+.curly_h{
+    font-size: 60px;
+    position: absolute;
+    left :500px;
+    top: 1050px;
+    
+}
+.curly_t{
+    font-size: 30px;
+    position: absolute;
+    left :500px;
+    top: 1120px;
+    
+}
+.c_shampoo{
+    margin-top: 5px;
+    height: 300px;
+    position: absolute;
+    right: 100px;
 }
