@@ -80,7 +80,7 @@
 }
 
 .S{
-    background-color:#33186B;
+    background-color:#b699f2;
 }
 .straight{
     margin-top: 5px;
@@ -92,6 +92,7 @@
     position: absolute;
     left :500px;
     top: 400px;
+    color: #802080;
     
 }
 .straight_t{
@@ -99,6 +100,7 @@
     position: absolute;
     left :500px;
     top: 470px;
+    color:#802080;
     
 }
 .s_shampoo{
@@ -109,7 +111,7 @@
 }
 
 .W{
-    background-color:#F2AFEF;
+    background-color:#fad7f8;
 }
 .w_shampoo{
     margin-top: 5px;
@@ -121,6 +123,7 @@
     position: absolute;
     left :400px;
     top: 730px;
+    color: #61055c;
     
 }
 .wavy_t{
@@ -128,6 +131,7 @@
     position: absolute;
     left :400px;
     top: 800px;
+    color: #61055c;
     
 }
 .wavy{
@@ -138,7 +142,7 @@
 }
 
 .C{
-    background-color:#7360DF;
+    background-color:#c2bdf0;
 }
 .curly{
     margin-top: 5px;
@@ -150,6 +154,7 @@
     position: absolute;
     left :500px;
     top: 1050px;
+    color: #a30f6a;
     
 }
 .curly_t{
@@ -157,6 +162,7 @@
     position: absolute;
     left :500px;
     top: 1120px;
+    color: #a30f6a;
     
 }
 .c_shampoo{
