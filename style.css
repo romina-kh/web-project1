@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 .nav {
+    position: fixed; 
     width: 100%;
+    z-index: 1000;
     display: flex;
-    background-color: #33186B;
+    background: #33186B;
     align-items: center;
     height: 50px;
-    position: fixed; 
+    
 }
 
 .nav h2{
@@ -183,45 +186,23 @@
     position: absolute;
     right: 100px;
 }
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    gap: 20px;
+    margin: 10px 50px;
 
-.product
-{
-    background-color:#f8eeff
 }
-.all_s{
-    height: 180px;
+.product{
+    background-color: #f2e8fc;
+    position: relative;
+    text-align: center;
 }
-
-.all_w{
-    height: 180px;
-}
-
-.all_c{
-    height: 180px;
-}
-
-.primer{
-    margin-left: 55px;
-    margin-right:20px;
-}
-.mask{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.serum{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.all_s{
-    margin-right: 20px;
-    margin-left: 20px;
+.product img{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    object-position: center;
 }
 
-.all_w{
-    margin-right: 20px;
-    margin-left: 20px;
-}
-.all_c{
-    margin-right: 40px;
-    margin-left: 20px;
-}
+
