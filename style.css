@@ -191,7 +191,7 @@
     grid-template-columns: repeat(auto-fit,minmax(260px,auto));
     gap: 20px;
     margin: 10px 300px;
-    
+    color: #33186B;
 
 }
 .product1{
@@ -199,6 +199,12 @@
     position: relative;
     text-align: center;
     border-radius: 10% 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product1:hover{
+    background: #33186B;
+    color: #f2e8fc;
+    transition: 0.5s all linear;
 }
 .product1 img{
     width: 100%;
@@ -206,12 +212,17 @@
     object-fit: contain;
     object-position: center;
 }
-
 .product2{
     background-color: #f2e8fc;
     position: relative;
     text-align: center;
     border-radius: 10% 25%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.product2:hover{
+    background: #33186B;
+    color: #f0cbee;
+    transition: 0.5s all linear;
 }
 .product2 img{
     width: 100%;
@@ -230,12 +241,19 @@
 
 }
 .product3{
-    background-color: #824D74 ;
+    color: #f2e8fc;
+    background-color: #720455 ;
     position: relative;
     text-align: center;
     border-radius: 50% 20% / 10% 40%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.product3 img{
+.product3:hover{
+    background: #f2e8fc;
+    color: #824D74;
+    transition: 0.5s all linear;
+}
+.main_off{
     width: 100%;
     height: 200px;
     object-fit:contain;
@@ -243,4 +261,9 @@
     border-radius: 90%;
     background-color: #FDAF7B;
 }
-
+.off{
+    position: absolute;
+    height: 100px;
+    right: 0px;
+  
+}
