@@ -32,7 +32,7 @@
     color: blueviolet;
     
 }
-.profile{
+.contact{
     position: absolute;
     right: 10px;
 }
@@ -266,4 +266,62 @@
     height: 100px;
     right: 0px;
   
+}
+.us{
+    background-color: #33186B;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    align-items: center;
+    border-radius: 10px;
+    color: #F2AFEF;
+
+}
+
+.logo{
+    height:130px;
+    border-radius: 50%;
+    
+}
+
+.us h2{
+    position: absolute;
+    left : 20px;
+    top: 2130px;
+}
+.us_p{
+    position: absolute;
+    left:25px;
+    top: 2165px;
+    font-style: oblique;
+    
+}
+.email_p{
+    color: #C499F3;
+    position: absolute;
+    right:45px;
+    top: 2130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.mail{
+    position: absolute;
+    right:113px;
+    top: 2220px;
+    color:#f2e8fc;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.icon1{
+    right: 400px;
+    position: absolute;
+    height: 50px;
+}
+ 
+.icon2{
+    right: 400px;
+    position: absolute;
+    top: 2130px;
+    height: 50px;
 }
