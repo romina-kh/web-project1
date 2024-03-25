@@ -183,3 +183,45 @@
     position: absolute;
     right: 100px;
 }
+
+.product
+{
+    background-color:#f8eeff
+}
+.all_s{
+    height: 180px;
+}
+
+.all_w{
+    height: 180px;
+}
+
+.all_c{
+    height: 180px;
+}
+
+.primer{
+    margin-left: 55px;
+    margin-right:20px;
+}
+.mask{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.serum{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.all_s{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.all_w{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.all_c{
+    margin-right: 40px;
+    margin-left: 20px;
+}
